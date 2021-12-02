@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #21243d;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu-list {
+  display: flex;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
